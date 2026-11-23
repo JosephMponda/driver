@@ -1,0 +1,43 @@
+FULL CRASH REPORT (before + after impact)   2026-11-23 12:11:57
+Trigger: CRASH: 4.9 g impact     Window: 30 s before + 3 s after the impact (494 samples)
+
+WHAT HAPPENED (T0 = impact, T- = before, T+ = after)
+   T-18.6s -> T-18.5s                 0.1 s   DROWSY: PERCLOS 15%
+   T-18.5s -> T-14.5s                 4.0 s   DROWSY: PERCLOS 16%
+   T-14.5s -> T-11.5s                 3.0 s   DROWSY: PERCLOS 17%
+   T-11.5s -> T-11.3s                 0.2 s   DROWSY: PERCLOS 18%
+   T-11.3s -> T-10.9s                 0.4 s   DROWSY: PERCLOS 17%
+   T-10.9s -> T-10.8s                 0.1 s   DROWSY: PERCLOS 18%
+   T-10.8s -> T-8.8s                  2.1 s   DROWSY: PERCLOS 17%
+    T-8.8s -> T-5.9s                  2.9 s   DROWSY: PERCLOS 18%
+    T-5.9s -> T-5.6s                  0.3 s   DROWSY: PERCLOS 19%
+    T-5.6s -> T-5.0s                  0.6 s   DROWSY: PERCLOS 20%
+    T-5.0s -> T-2.4s                  2.6 s   DROWSY: PERCLOS 21%
+    T-2.4s -> T+0.3s                  2.7 s   DROWSY: PERCLOS 22%
+    T-1.6s -> T+1.2s                  2.8 s   TOO CLOSE
+        T0 -> end of recording        2.9 s   CRASH DETECTED
+    T+0.3s -> T+1.0s                  0.7 s   DROWSY: PERCLOS 21%
+    T+1.0s -> T+1.7s                  0.7 s   DROWSY: PERCLOS 20%
+    T+1.7s -> T+2.3s                  0.7 s   DROWSY: PERCLOS 19%
+    T+2.3s -> T+2.7s                  0.3 s   DROWSY: PERCLOS 18%
+    T+2.7s -> end of recording        0.2 s   DROWSY: PERCLOS 17%
+    T+2.7s -> end of recording        0.2 s   TOO CLOSE
+
+SUMMARY
+  Face not visible (looking away / out of frame): 9.0 s (27% of window)
+  Largest head turn from straight ahead: 63 deg yaw, 67 deg pitch
+  Lowest eye openness (EAR): 0.03    peak PERCLOS: 22%
+  Mouth opening peak (MAR): 0.62
+  Alcohol sensor peak: 0.04 ppm
+  Closest object ahead (ultrasonic): 5 cm
+  Peak acceleration (crash sensor): 6.4 g
+  Worst alert level: DANGER
+  State at the end of the recording: DROWSY: PERCLOS 17% + TOO CLOSE + CRASH DETECTED
+
+AFTER THE IMPACT (T0 to T+3s, 43 samples)
+  Face visible: 2% of the time
+  Peak acceleration after the impact: 4.4 g
+  Closest object ahead: 6 cm
+  Worst alert level: DANGER
+
+Data: incident_20261123_121154_full.csv   Full log: live_20261123_121039.csv

@@ -1,0 +1,4 @@
+# Raspberry Pi 3B, 64-bit Raspberry Pi OS (Bookworm, Python 3.11)
+mediapipe==0.10.14
+numpy<2
+# picamera2, gpiozero, lgpio and spidev come from apt (see README), not pip.

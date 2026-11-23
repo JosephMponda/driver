@@ -1,0 +1,7 @@
+venv/
+old_files/
+pycache/
+venv/
+**/venv/
+__pycache__/
+*.pyc

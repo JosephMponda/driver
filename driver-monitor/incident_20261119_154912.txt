@@ -1,0 +1,19 @@
+INCIDENT REPORT   2026-11-19 15:49:12
+Trigger: CRASH: 5.2 g impact     Window: last 28 s of data (429 samples)
+
+WHAT THE DRIVER DID WRONG (time before the event)
+   T-28.1s -> T-9.9s                 18.3 s   CALIBRATING - look straight ahead
+        T0 -> T0 (still happening)    0.0 s   CRASH DETECTED
+
+SUMMARY
+  Face not visible (looking away / out of frame): 18.7 s (66% of window)
+  Largest head turn from straight ahead: 41 deg yaw, 75 deg pitch
+  Lowest eye openness (EAR): 0.08    peak PERCLOS: 2%
+  Mouth opening peak (MAR): 0.55
+  Alcohol sensor peak: 0.01 ppm
+  Closest object ahead (ultrasonic): 33 cm
+  Peak acceleration (crash sensor): 23.9 g
+  Worst alert level: DANGER
+  State at T0: CRASH DETECTED
+
+Data: incident_20261119_154912.csv   Full log: live_20261119_154840.csv
